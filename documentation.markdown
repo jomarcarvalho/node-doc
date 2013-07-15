@@ -44,7 +44,8 @@ compatibilidade não deve ser esperada de recursos obsoletos.
 Estabilidade: 1 - Experimental
 Esta funcionalidade foi introduzida recentemente, e podem mudar
 ou ser removido em versões futuras. Por favor, testá-la e fornecer um feedback.
-Se trata de um caso de uso que é importante para você, diga a equipe principal do Node sobre seus testes e forneça um feedback.
+Se trata de um caso de uso que é importante para você,
+diga a equipe principal do Node sobre seus testes e forneça um feedback.
 ```
 
 ```
