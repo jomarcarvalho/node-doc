@@ -1,62 +1,62 @@
-# os
+# Sistema Operacional
 
-    Stability: 4 - API Frozen
+    Estabilidade: 4 - API Congelada
 
-Provides a few basic operating-system related utility functions.
+Fornece algumas funções utilitárias relacionadas com sistema operacional básico.
 
-Use `require('os')` to access this module.
+Para usar você precisa requerir `require('os')`
 
 ## os.tmpdir()
 
-Returns the operating system's default directory for temp files.
+Retorna o diretório padrão do sistema operacional para arquivos temporários.
 
 ## os.endianness()
 
-Returns the endianness of the CPU. Possible values are `"BE"` or `"LE"`.
+Retorna a ordenação da CPU. Os valores possíveis são `"BE"` ou `"LE"`.
 
 ## os.hostname()
 
-Returns the hostname of the operating system.
+Retorna o nome do host do sistema operacional.
 
 ## os.type()
 
-Returns the operating system name.
+Retorna o nome do sistema operacional.
 
 ## os.platform()
 
-Returns the operating system platform.
+Retorna a plataforma de sistema operacional.
 
 ## os.arch()
 
-Returns the operating system CPU architecture.
+Retorna a arquitetura de CPU do sistema operacional.
 
 ## os.release()
 
-Returns the operating system release.
+Retorna a versão do sistema operacional.
 
 ## os.uptime()
 
-Returns the system uptime in seconds.
+Retorna o tempo de funcionamento do sistema em segundos.
 
 ## os.loadavg()
 
-Returns an array containing the 1, 5, and 15 minute load averages.
+Retorna um array contendo as médias de carga 1, 5 e 15 minutos.
 
 ## os.totalmem()
 
-Returns the total amount of system memory in bytes.
+Retorna a quantidade total de memória do sistema em bytes.
 
 ## os.freemem()
 
-Returns the amount of free system memory in bytes.
+Retorna a quantidade de memória livre do sistema em bytes.
 
 ## os.cpus()
 
-Returns an array of objects containing information about each CPU/core
-installed: model, speed (in MHz), and times (an object containing the number of
-milliseconds the CPU/core spent in: user, nice, sys, idle, and irq).
+Retorna uma matriz de objetos que contêm informações sobre cada CPU / core
+instalado: modelo, a velocidade (em MHz), e vezes (um objeto que contém o número de
+milissegundos da CPU / gasto em: user, nice, sys, ocioso, e IRQ).
 
-Example inspection of os.cpus:
+Exemplo de retorno os.cpus()
 
     [ { model: 'Intel(R) Core(TM) i7 CPU         860  @ 2.80GHz',
         speed: 2926,
@@ -125,7 +125,7 @@ Example inspection of os.cpus:
 
 ## os.networkInterfaces()
 
-Get a list of network interfaces:
+Obter uma lista de interfaces de rede:
 
     { lo0:
        [ { address: 'fe80::1', netmask: 'ffff:ffff:ffff:ffff::',
@@ -148,4 +148,4 @@ Get a list of network interfaces:
 
 ## os.EOL
 
-A constant defining the appropriate End-of-line marker for the operating system.
+Uma constante que define o marcador de fim de linha apropriada para o sistema operacional.

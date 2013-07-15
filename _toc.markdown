@@ -17,7 +17,7 @@
 * [HTTPS](https.html)
 * [Módulos](modules.html)
 * [Net](net.html)
-* [OS](os.html)
+* [Sistema Operacional](os.html)
 * [Caminho](path.html)
 * [Processos](process.html)
 * [Punycode](punycode.html)

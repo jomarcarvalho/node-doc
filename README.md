@@ -19,6 +19,7 @@ Traduzidos:
     * synopsis.markdown
     * string_decoder.markdown
     * querystring.markdown
+    * os.markdown
 
 Em Processo:
 
