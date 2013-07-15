@@ -1,44 +1,44 @@
-# punycode
+# PunyCode
 
-    Stability: 2 - Unstable
+    Estabilidade: 2 - Instável
 
-[Punycode.js](http://mths.be/punycode) is bundled with Node.js v0.6.2+. Use
-`require('punycode')` to access it. (To use it with other Node.js versions,
-use npm to install the `punycode` module first.)
+[Punycode.js](http://mths.be/punycode) vem com o Node.js v0.6.2+. Para usar você precisa requerir com
+`require('punycode')` para usá-lo. (Para usá-lo com outras versões do Node.js,
+use o npm para instalar o módulo `punycode`)
 
 ## punycode.decode(string)
 
-Converts a Punycode string of ASCII-only symbols to a string of Unicode symbols.
+Converte uma string Punycode com somente símbolos ASCII para uma série de símbolos Unicode.
 
-    // decode domain name parts
+    // decodificar partes de nomes de domínio
     punycode.decode('maana-pta'); // 'mañana'
     punycode.decode('--dqo34k'); // '☃-⌘'
 
 ## punycode.encode(string)
 
-Converts a string of Unicode symbols to a Punycode string of ASCII-only symbols.
+Converte uma string de símbolos Unicode em uma string de Punycode somente de símbolos ASCII.
 
-    // encode domain name parts
+    // codificar partes de nomes de domínios
     punycode.encode('mañana'); // 'maana-pta'
     punycode.encode('☃-⌘'); // '--dqo34k'
 
 ## punycode.toUnicode(domain)
 
-Converts a Punycode string representing a domain name to Unicode. Only the
-Punycoded parts of the domain name will be converted, i.e. it doesn't matter if
-you call it on a string that has already been converted to Unicode.
+Converte uma string Punycode representando um nome de domínio para Unicode. Apenas as
+Partes Punycoded do nome de domínio serão convertidos, ou seja, não importa se
+você chamá-lo em uma string que já foi convertido para Unicode.
 
-    // decode domain names
+    // decodificar nomes de domínio
     punycode.toUnicode('xn--maana-pta.com'); // 'mañana.com'
     punycode.toUnicode('xn----dqo34k.com'); // '☃-⌘.com'
 
 ## punycode.toASCII(domain)
 
-Converts a Unicode string representing a domain name to Punycode. Only the
-non-ASCII parts of the domain name will be converted, i.e. it doesn't matter if
-you call it with a domain that's already in ASCII.
+Converte uma string de caracteres Unicode que representa um nome de domínio para Punycode. Apenas as
+partes não-ASCII do nome de domínio será convertido, ou seja, não importa se
+você chamá-lo com um domínio que já está em ASCII.
 
-    // encode domain names
+    // codificar nomes de domínio
     punycode.toASCII('mañana.com'); // 'xn--maana-pta.com'
     punycode.toASCII('☃-⌘.com'); // 'xn----dqo34k.com'
 
@@ -46,23 +46,21 @@ you call it with a domain that's already in ASCII.
 
 ### punycode.ucs2.decode(string)
 
-Creates an array containing the numeric code point values of each Unicode
-symbol in the string. While [JavaScript uses UCS-2
-internally](http://mathiasbynens.be/notes/javascript-encoding), this function
-will convert a pair of surrogate halves (each of which UCS-2 exposes as
-separate characters) into a single code point, matching UTF-16.
+Cria um array contendo os valores de ponto de código numérico de cada símbolo Unicode na string. Enquanto [JavaScript usa UCS-2 internamente](http://mathiasbynens.be/notes/javascript-encoding), esta função
+irá converter um par de metades de substituição (cada um dos quais o UCS-2 expõe como
+caracteres em separado) em um ponto de código único, combinando com UTF-16.
 
     punycode.ucs2.decode('abc'); // [0x61, 0x62, 0x63]
-    // surrogate pair for U+1D306 tetragram for centre:
+    // par substituto para U+1D306 tetragram para o centro:
     punycode.ucs2.decode('\uD834\uDF06'); // [0x1D306]
 
 ### punycode.ucs2.encode(codePoints)
 
-Creates a string based on an array of numeric code point values.
+Cria uma string com base em uma matriz de valores de ponto de código numérico.
 
     punycode.ucs2.encode([0x61, 0x62, 0x63]); // 'abc'
     punycode.ucs2.encode([0x1D306]); // '\uD834\uDF06'
 
 ## punycode.version
 
-A string representing the current Punycode.js version number.
+Uma string representando o número da versão atual Punycode.js.

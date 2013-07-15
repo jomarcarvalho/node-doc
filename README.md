@@ -20,10 +20,12 @@ Traduzidos:
     * string_decoder.markdown
     * querystring.markdown
     * os.markdown
+    * punycode.markdown
 
 Em Processo:
 
-    * punycode.markdown
+    * fs.markdown
+    * http.markdown
 
 ### Como Contribuir
 
@@ -31,13 +33,12 @@ Para contribuir você precisa seguir os seguintes passos.
 
 Passos:
 
-    1. Enviar um pedido para chris.enytc@gmail.com solicitando ser colaborador.
-    2. Fazer um Fork do Repositório.
-    3. Clonar o Repositório
-    4. Ler os Padrões do Projeto
-    5. Traduzir
-    6. Testar a Tradução
-    7. Enviar um Pull Request
+    1. Fazer um Fork do Repositório.
+    2. Clonar o Repositório
+    3. Ler os Padrões do Projeto
+    4. Traduzir
+    5. Testar a Tradução
+    6. Enviar um Pull Request
 
 ### Padrões do Projeto
 
