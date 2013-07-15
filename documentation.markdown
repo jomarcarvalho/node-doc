@@ -24,19 +24,19 @@ O modelo HTML está localizado na `doc/template.html`.
 
 <!--type=misc-->
 
-Ao longo da documentação, você vai ver indicações de um seção de
-estabilidade. A API do o Node.js ainda está mudando um pouco, e isso é natural a medida que
+Ao longo da documentação, você vai ver indicações de uma seção de
+estabilidade. A API do Node.js ainda está mudando um pouco, e isso é natural a medida que
 amadurece, certas partes são mais confiáveis ​​do que outras. Algumas são tão
 aprovadas, e assim se tornam confiáveis, pois é improvável que alguma vez venha a
-mudar tudo. Outros marcas são Novo e Experimental, conhecidos por ser perigosos
+mudar tudo. Outras marcas são o Novo e Experimental, conhecidos por ser perigosos
 estarem em processo e está sendo redesenhado.
 
 Os índices de estabilidade são os seguintes:
 
 ```
 Estabilidade: 0 - Obsoleto
-Esse recurso é conhecido por ser problemático, e as mudanças são
-planejado. Não confie nele. O uso do recurso pode causar avisos. A
+Esse recurso é conhecido por ser problemático.
+Não confie nele. O uso do recurso pode causar avisos. A
 compatibilidade não deve ser esperada de recursos obsoletos.
 ```
 
@@ -44,7 +44,7 @@ compatibilidade não deve ser esperada de recursos obsoletos.
 Estabilidade: 1 - Experimental
 Esta funcionalidade foi introduzida recentemente, e podem mudar
 ou ser removido em versões futuras. Por favor, testá-la e fornecer um feedback.
-Se trata de um caso de uso que é importante para você, diga a equipe principal do Node.
+Se trata de um caso de uso que é importante para você, diga a equipe principal do Node sobre seus testes e forneça um feedback.
 ```
 
 ```
