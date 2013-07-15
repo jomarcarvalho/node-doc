@@ -42,7 +42,7 @@ Testes de igualdade não-estrita, tal como determinado pelo operador não extrem
 Espera 'block' lançar um erro. `error` pode ser construtor, regexp ou
 função de validação.
 
-Validate instanceof using constructor:
+Validar instanceof usando o construtor:
 
     assert.throws(
       function() {
@@ -51,7 +51,7 @@ Validate instanceof using constructor:
       Error
     );
 
-Validate error message using RegExp:
+Validar a mensagem de erro usando RegExp:
 
     assert.throws(
       function() {
