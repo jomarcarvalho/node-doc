@@ -67,11 +67,13 @@ O mesmo segue as regras de cima só que mudando a palavra para `FixError`.
 
 ### Enviando Pull Request
 
-Depois de Testar, Ler e revisar sua tradução é hora de fazer um Pull Request. Após fazer o Pull Request, sua tradução será analisada e se estiver tudo certo será aceita e seu nome será referenciado como colaborador do projeto na Documentação. Você ajudará muitas pessoas na comunidade Node.js da lingua Portuguesa.
+Depois de testar, ler e revisar sua tradução, é hora de fazer um Pull Request. Após fazer o Pull Request, sua tradução será analisada e se estiver tudo certo será aceita e seu nome será referenciado como colaborador do projeto na Documentação. Você ajudará muitas pessoas na comunidade Node.js da lingua Portuguesa.
 
 Depois de finalizada a tradução completa, será compilado os arquivos e a Documentação estará online em: [Node Doc](http://chrisenytc.github.io/docs/nodejs)
 
 A documentação compilada em `.html` e `.json` também estará disponível em `/compiled` para que todas as pessoas também possam hospedar em qualquer lugar sempre referenciando o projeto e seus colaboradores que tiveram todo o trabalho para ajudar a comunidade Node. :)
+
+Após terminada a tradução completa também será mostrado exemplos de como compilar os `.markdown` usados na documentação.
 
 ## Conclusão
 
