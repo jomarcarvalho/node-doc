@@ -67,5 +67,5 @@ Seguindo esses passos você poderar contribuir com o projeto e ajudar milhares d
 
 Você também pode ver ou contribuir com outros projetos de traduções nos links abaixo:
 
-    [Docs Lists](http://chrisenytc.github.io/docs/)
-    [Chris Blog](http://chris.enytc.com)
+[Docs Lists](http://chrisenytc.github.io/docs/)
+[Chris Blog](http://chris.enytc.com)
