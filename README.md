@@ -14,10 +14,13 @@ Traduzidos:
     * _toc.markdown
     * addons.markdown
     * assert.markdown
+    * console.markdown
+    * documentation.markdown
+    * synopsis.markdown
 
 Em Processo:
 
-    * console.markdown
+    * punycode.markdown
 
 ### Como Contribuir
 
@@ -25,12 +28,13 @@ Para contribuir você precisa seguir os seguintes passos.
 
 Passos:
 
-    1. Fazer um Fork do Repositório.
-    2. Clonar o Repositório
-    3. Ler os Padrões do Projeto
-    4. Traduzir
-    5. Testar a Tradução
-    5. Enviar um Pull Request
+    1. Enviar um pedido para chris.enytc@gmail.com solicitando ser colaborador.
+    2. Fazer um Fork do Repositório.
+    3. Clonar o Repositório
+    4. Ler os Padrões do Projeto
+    5. Traduzir
+    6. Testar a Tradução
+    7. Enviar um Pull Request
 
 ### Padrões do Projeto
 
