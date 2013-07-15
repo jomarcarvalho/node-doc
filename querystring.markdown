@@ -4,13 +4,13 @@
 
 <!--name=querystring-->
 
-Este módulo fornece utilitários para lidar com querystrings.
+Este módulo fornece utilitários para lidar com query strings.
 Ele fornece os seguintes métodos:
 
 ## querystring.stringify(obj, [sep], [eq])
 
 Serializar um objeto em uma string.
-Opcionalmente, substituir os caracteres separador padrão (`'e'`) e atribuição (`'='`)
+Opcionalmente, substituir os caracteres separador padrão (`'&'`) e atribuição (`'='`)
 
 Exemplo:
 
@@ -25,7 +25,7 @@ Exemplo:
 ## querystring.parse(str, [sep], [eq], [options])
 
 Desserializar uma querystring para um objeto.
-Opcionalmente, substituir o separador padrão (`'e'`) e atribuição (`'='`)
+Opcionalmente, substituir o separador padrão (`'&'`) e atribuição (`'='`)
 caracteres.
 
 Opções de objeto pode conter `maxKeys` propriedade (igual a 1000 por padrão), ele vai
