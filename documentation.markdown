@@ -55,7 +55,7 @@ será mantida se razoável.
 ```
 
 ```
-Estabilidade: 3 - Stable
+Estabilidade: 3 - Estável
 A API tem se mostrado satisfatória, mas a limpeza no
 código pode causar alterações menores. Compatibilidade com versões anteriores é garantida.
 ```
@@ -67,7 +67,7 @@ improvável que alguma vez venha a mudar.
 ```
 
 ```
-Estabilidade: 5 - Locked
+Estabilidade: 5 - Trancada
 A não ser que erros graves forem encontrados, este código nunca irá
 mudar. Por favor, não sugira mudanças nesta área, pois elas vão ser recusadas.
 ```
