@@ -80,7 +80,5 @@ Espera 'block' não lançar um erro, consulte assert.throws para mais detalhes.
 
 ## assert.ifError(value)
 
-Tests if value is not a false value, throws if it is a true value. Useful when
-testing the first argument, `error` in callbacks.
 Testa se o valor não é um valor falso, lança, se for um valor verdadeiro. Útil quando
 testando o primeiro argumento, `error` em retornos de chamada.
