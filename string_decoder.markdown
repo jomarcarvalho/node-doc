@@ -1,6 +1,6 @@
 # Decodificador de String
 
-    Estabilidade: 3 - Estavél
+    Estabilidade: 3 - Estével
 
 Para utilizar este módulo, você vai precisar requisitar ele com `require('string_decoder')`. StringDecoder decodifica um buffer para uma string. É uma interface simples para `buffer.toString()`, mas oferece
 suporte adicional para utf8.
