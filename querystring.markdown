@@ -28,8 +28,8 @@ Desserializar uma querystring para um objeto.
 Opcionalmente, substituir o separador padrão (`'&'`) e atribuição (`'='`)
 caracteres.
 
-Opções de objeto pode conter `maxKeys` propriedade (igual a 1000 por padrão), ele vai
-ser utilizado para limitar chaves processadas. Configurá-lo para 0 para remover essa limitação de chave contagem.
+Opções de objeto pode conter a propriedade `maxKeys` (igual a 1000 por padrão), ele vai
+ser utilizado para limitar chaves processadas. Configure para 0 para remover essa limitação de chave contagem.
 
 Exemplo:
 
