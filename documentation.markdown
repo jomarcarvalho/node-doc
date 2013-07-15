@@ -20,7 +20,7 @@ Cada arquivo`.html` e `.json` é gerado com base no correspondente
 documentação é gerada utilizando o `tools/doc/generate.js`.
 O modelo HTML está localizado na `doc/template.html`.
 
-## Stability Index
+## Estabilidade
 
 <!--type=misc-->
 
