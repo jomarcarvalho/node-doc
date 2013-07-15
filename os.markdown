@@ -52,11 +52,11 @@ Retorna a quantidade de memória livre do sistema em bytes.
 
 ## os.cpus()
 
-Retorna uma matriz de objetos que contêm informações sobre cada CPU / core
-instalado: modelo, a velocidade (em MHz), e vezes (um objeto que contém o número de
-milissegundos da CPU / gasto em: user, nice, sys, ocioso, e IRQ).
+Retorna uma matriz de objetos que contêm informações sobre cada CPU/core
+instalado: modelo, a velocidade (em MHz), e as vezes (um objeto que contém o número de
+milissegundos da CPU/gasto em: user, nice, sys, ocioso, e IRQ).
 
-Exemplo de retorno os.cpus()
+Exemplo de retorno para os.cpus()
 
     [ { model: 'Intel(R) Core(TM) i7 CPU         860  @ 2.80GHz',
         speed: 2926,
