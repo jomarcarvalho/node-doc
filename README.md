@@ -60,7 +60,7 @@ Atenção: Para mais de um arquivo sempre o último tem o `and` e o restanto do 
 
 -- Enviando Correções
 
-Caso você tenha errado alguma coisa no arquivo ou não saiu como planejado depois de testar e ler no GitHub Você pode corigir o arquivo e fazer um novo commit seguindo o exemplo:
+Caso você tenha errado alguma coisa no arquivo ou não saiu como planejado depois de testar e ler no GitHub. Você pode corrigir o arquivo e fazer um novo commit seguindo o exemplo:
 
 	git commit -m "FixError: filename.markdown"
 
