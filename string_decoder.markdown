@@ -1,10 +1,9 @@
-# StringDecoder
+# Decodificador de String
 
-    Stability: 3 - Stable
+    Estabilidade: 3 - Estavél
 
-To use this module, do `require('string_decoder')`. StringDecoder decodes a
-buffer to a string. It is a simple interface to `buffer.toString()` but provides
-additional support for utf8.
+Para utilizar este módulo, você vai precisar requisitar ele com `require('string_decoder')`. StringDecoder decodifica um buffer para uma string. É uma interface simples para `buffer.toString()`, mas oferece
+suporte adicional para utf8.
 
     var StringDecoder = require('string_decoder').StringDecoder;
     var decoder = new StringDecoder('utf8');
@@ -15,14 +14,14 @@ additional support for utf8.
     var euro = new Buffer([0xE2, 0x82, 0xAC]);
     console.log(decoder.write(euro));
 
-## Class: StringDecoder
+## Classe: StringDecoder
 
-Accepts a single argument, `encoding` which defaults to `utf8`.
+Aceita um único parâmetro `encoding` que por padrão é `utf-8`.
 
 ### decoder.write(buffer)
 
-Returns a decoded string.
+Retorna a string decodificada.
 
 ### decoder.end()
 
-Returns any trailing bytes that were left in the buffer.
+Retorna qualquer bytes à direita que foram deixados no buffer.

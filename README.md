@@ -17,6 +17,8 @@ Traduzidos:
     * console.markdown
     * documentation.markdown
     * synopsis.markdown
+    * string_decoder.markdown
+    * querystring.markdown
 
 Em Processo:
 
