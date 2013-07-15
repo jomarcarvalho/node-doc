@@ -2,7 +2,7 @@
 
 <!--type=misc-->
 
-Um exemplo de um [Servidor Web](http.html), escrito em Node que responde com 'Olá
+Um exemplo de um [Servidor Web](http.html) escrito em Node .js que responde com 'Olá
 Mundo':
 
     var http = require('http');
