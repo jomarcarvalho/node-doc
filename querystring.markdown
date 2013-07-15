@@ -4,12 +4,12 @@
 
 <!--name=querystring-->
 
-Este módulo fornece utilitários para lidar com seqüências de consulta.
+Este módulo fornece utilitários para lidar com querystrings.
 Ele fornece os seguintes métodos:
 
 ## querystring.stringify(obj, [sep], [eq])
 
-Serializar um objeto em uma string de consulta.
+Serializar um objeto em uma string.
 Opcionalmente, substituir os caracteres separador padrão (`'e'`) e atribuição (`'='`)
 
 Exemplo:
@@ -24,7 +24,7 @@ Exemplo:
 
 ## querystring.parse(str, [sep], [eq], [options])
 
-Desserializar uma query string para um objeto.
+Desserializar uma querystring para um objeto.
 Opcionalmente, substituir o separador padrão (`'e'`) e atribuição (`'='`)
 caracteres.
 
