@@ -16,7 +16,7 @@ suporte adicional para utf8.
 
 ## Classe: StringDecoder
 
-Aceita um único parâmetro `encoding` que por padrão é `utf-8`.
+Aceita um único parâmetro `encoding` que por padrão é `utf8`.
 
 ### decoder.write(buffer)
 
