@@ -3,11 +3,11 @@ NodeDoc
 
 Translation of Node.js Documentation for the Portuguese language.
 
-### Informações
+## Informações
 
 A Tradução da Documentação está em andamento e você poderar ver como está o status e também contribuir para a tradução.
 
-### Status
+## Status
 
 Traduzidos:
 
@@ -27,7 +27,7 @@ Em Processo:
     * fs.markdown
     * http.markdown
 
-### Como Contribuir
+## Como Contribuir
 
 Para contribuir você precisa seguir os seguintes passos.
 
@@ -40,7 +40,7 @@ Passos:
     5. Testar a Tradução
     6. Enviar um Pull Request
 
-### Padrões do Projeto
+## Padrões do Projeto
 
 Para organizar e melhorar a qualidade do projeto vai ser preciso seguir alguns padrões.
 
@@ -69,7 +69,7 @@ Caso você tenha errado alguma coisa no arquivo ou não saiu como planejado depo
 O mesmo segue as regras de cima só que mudando a palavra para `FixError`.
 
 
-### Enviando Pull Request
+## Enviando Pull Request
 
 Depois de testar, ler e revisar sua tradução, é hora de fazer um Pull Request. Após fazer o Pull Request, sua tradução será analisada e se estiver tudo certo será aceita e seu nome será referenciado como colaborador do projeto na Documentação. Você ajudará muitas pessoas na comunidade Node.js da lingua Portuguesa.
 
