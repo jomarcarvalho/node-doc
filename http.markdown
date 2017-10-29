@@ -2,27 +2,22 @@
 
     Stability: 3 - Stable
 
-To use the HTTP server and client one must `require('http')`.
+Para usar HTTP server e client deve-se usar `require('http')`.
 
-The HTTP interfaces in Node are designed to support many features
-of the protocol which have been traditionally difficult to use.
-In particular, large, possibly chunk-encoded, messages. The interface is
-careful to never buffer entire requests or responses--the
-user is able to stream data.
+As interfaces HTTP no Node, foram projetadas para suportar muitas características de protocolos que são de difícil uso.
+Em particular, os grandes, possivelmente com blocos-codificados e mensagens. A interface é cuidadosa para nunca fazer buffer de requests inteiros ou responses – o usuário é capaz de transmitir dados
 
-HTTP message headers are represented by an object like this:
+Os cabeçalhos de mensagens HTTP são representados por um objeto como este:
 
     { 'content-length': '123',
       'content-type': 'text/plain',
       'connection': 'keep-alive',
       'accept': '*/*' }
 
-Keys are lowercased. Values are not modified.
+As chaves são minúsculas. E os valores não são modificados.
 
-In order to support the full spectrum of possible HTTP applications, Node's
-HTTP API is very low-level. It deals with stream handling and message
-parsing only. It parses a message into headers and body but it does not
-parse the actual headers or the body.
+Para oferecer suporte a possíveis aplicações HTTP no Node, a API HTTP é de muito baixo nível. Trata-se de manipulação de fluxo e mensagem de analise somente. Ela analisa a mensagem de cabeçalhos e o corpo mas ela não analisa o cabeçalho real ou o corpo.
+
 
 
 ## http.STATUS_CODES
