@@ -4,19 +4,13 @@
 
 <!--name=fs-->
 
-File I/O is provided by simple wrappers around standard POSIX functions.  To
-use this module do `require('fs')`. All the methods have asynchronous and
-synchronous forms.
+A I/O de arquivo é fornecido por uma simples camada em torno da função padrão POSIX. Para usar esse modulo usa-se `require('fs')`. Todos os métodos têm formas assíncronas e síncronas.
 
-The asynchronous form always take a completion callback as its last argument.
-The arguments passed to the completion callback depend on the method, but the
-first argument is always reserved for an exception. If the operation was
-completed successfully, then the first argument will be `null` or `undefined`.
+A forma assíncrona sempre leva uma recuperação de retorno como último argumento. Os argumentos passados para completar o retorno de recuperação dependem do método, mas o primeiro argumento sempre é reservado para uma exceção. Se a operação foi concluída com sucesso, então o primeiro argumento será `null` or `undefined`.
 
-When using the synchronous form any exceptions are immediately thrown.
-You can use try/catch to handle exceptions or allow them to bubble up.
+Quando usar a forma síncrona quaisquer exceções serão imediatamente lançadas. Você pode usar try/cath para lidar com exceções ou para que elas cresçam.
 
-Here is an example of the asynchronous version:
+Aqui tem um exemplo de uma forma assíncrona:
 
     var fs = require('fs');
 
@@ -25,15 +19,14 @@ Here is an example of the asynchronous version:
       console.log('successfully deleted /tmp/hello');
     });
 
-Here is the synchronous version:
+Aqui tem uma forma síncrona:
 
     var fs = require('fs');
 
     fs.unlinkSync('/tmp/hello')
     console.log('successfully deleted /tmp/hello');
 
-With the asynchronous methods there is no guaranteed ordering. So the
-following is prone to error:
+Com os métodos assíncronos, não há nenhuma garantia de ordem. Então o mesmo é propenso a erros:
 
     fs.rename('/tmp/hello', '/tmp/world', function (err) {
       if (err) throw err;
@@ -44,8 +37,8 @@ following is prone to error:
       console.log('stats: ' + JSON.stringify(stats));
     });
 
-It could be that `fs.stat` is executed before `fs.rename`.
-The correct way to do this is to chain the callbacks.
+Pode ser que `fs.stat` seja executado antes de `fs.rename`.
+A maneira correta seria encadear os retornos das chamadas.
 
     fs.rename('/tmp/hello', '/tmp/world', function (err) {
       if (err) throw err;
