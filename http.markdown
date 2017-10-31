@@ -24,22 +24,20 @@ Para oferecer suporte a possíveis aplicações HTTP no Node, a API HTTP é de muito
 
 * {Object}
 
-A collection of all the standard HTTP response status codes, and the
-short description of each.  For example, `http.STATUS_CODES[404] === 'Not
+Uma coleção de todos os códigos de status da resposta HTTP padrão e uma
+breve descrição de cada. Por exemplo, `http.STATUS_CODES[404] === 'Not
 Found'`.
+
 
 ## http.createServer([requestListener])
 
-Returns a new web server object.
+Retorna um novo objeto do servidor web.
 
-The `requestListener` is a function which is automatically
-added to the `'request'` event.
+A `requestListener` é uma função que é automaticamente adicionada ao evento `'request'` 
 
 ## http.createClient([port], [host])
 
-This function is **deprecated**; please use [http.request()][] instead.
-Constructs a new HTTP client. `port` and `host` refer to the server to be
-connected to.
+Esta função é **deprecated**: por favor use [http.request()][] em vez dela. Constrói um novo client HTTP. `port` e `host` referem-se ao server a ser conectado.
 
 ## Class: http.Server
 
